@@ -3,6 +3,7 @@ from typing import Tuple
 import pandas as pd
 import statsmodels.api as sm
 
+
 def homo_check(data_tbl: pd.DataFrame, y: pd.Series, alpha=0.05, with_conclusion_print=False) -> Tuple[
     bool, float, float, float, float]:
     """
